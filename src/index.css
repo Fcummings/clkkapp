@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.bg-primary {
+  @apply bg-blue-600;
+}
+
+.text-primary {
+  @apply text-blue-600;
+}
+
+.hover-bg-primary:hover {
+  @apply bg-blue-700;
+}
